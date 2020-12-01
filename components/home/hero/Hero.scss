@@ -1,0 +1,17 @@
+#hero {
+  height: calc(100vh - 56px);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: url('/hero-web.jpg');
+}
+
+#hero:before {
+  background-color: rgba(209, 61, 46, 0.9);
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

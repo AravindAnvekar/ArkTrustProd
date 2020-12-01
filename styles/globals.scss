@@ -1,0 +1,12 @@
+// *** Bootstrap CSS ***
+@import 'bootstrap/scss/bootstrap';
+
+// *** Google Fonts ***
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&display=swap');
+
+// *** Colors ***
+$red: #d13d2e;
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
