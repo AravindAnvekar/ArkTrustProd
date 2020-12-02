@@ -27,7 +27,7 @@ export default function Intro() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorum
             eveniet perspiciatis odit fuga blanditiis culpa corrupti!
             Consequatur mollitia consectetur vero tempora porro molestias vitae,
-            reprehenderit, ad, placeat esse aspernatur.
+            reprehenderit, ad, placeat esse aspernatur....
           </h4>
         </div>
       </div>
