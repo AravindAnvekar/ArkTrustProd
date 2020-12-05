@@ -8,9 +8,13 @@
 }
 
 .about-lhs {
-  //display: flex;
+  background-image: url('/intro-bg.jpg');
+  background-position: center;
+  background-size: cover;
 }
-
+.qodef-image-with-rotate-text-holder {
+  margin-bottom: 1em;
+}
 .qodef-image-with-rotate-text {
   font-size: 165px;
   font-weight: 700;
@@ -20,16 +24,11 @@
   color: transparent;
   -webkit-text-stroke: 2px #c2c0bd;
   z-index: 10;
-  transform: rotate(90deg);
 }
 
 .qodef--show {
   opacity: 1;
-  //   -webkit-transform: translateY(0);
-  //   -ms-transform: translateY(0);
   transform: translateY(0);
-  //   -webkit-transition: opacity 0.3s,
-  //     -webkit-transform 1s cubic-bezier(0.23, 0.51, 0.15, 0.9);
   transition: opacity 0.3s,
     -webkit-transform 1s cubic-bezier(0.23, 0.51, 0.15, 0.9);
   -o-transition: transform 1s cubic-bezier(0.23, 0.51, 0.15, 0.9), opacity 0.3s;

@@ -4,6 +4,7 @@ import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import Hero from "../components/home/hero/Hero";
 import Intro from "../components/home/intro/Intro";
+import Cards from "../components/home/cards/Cards";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <Intro />
+        <Cards />
       </main>
       <Footer />
     </div>
