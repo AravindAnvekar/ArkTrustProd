@@ -3,20 +3,13 @@ import "./Intro.scss";
 
 export default function Intro() {
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5 mb-5" id="about">
       <div className="row">
         <div className="col-sm-8">
           <div className="qodef-image-with-rotate-text-holder">
             <div className="qodef-image-with-rotate-text-inner">
               <p className="qodef-image-with-rotate-text qodef-bg-text--animated qodef--appear">
-                <span className="qodef-bg-text-char qodef--show">A</span>
-                <span className="qodef-bg-text-char qodef--show">b</span>
-                <span className="qodef-bg-text-char qodef--show">o</span>
-                <span className="qodef-bg-text-char qodef--show">u</span>
-                <span className="qodef-bg-text-char qodef--show">t</span>
-                <span className="qodef-bg-text-char qodef--empty-char"> </span>
-                <span className="qodef-bg-text-char qodef--show">u</span>
-                <span className="qodef-bg-text-char qodef--show">s</span>
+                <span className="qodef-bg-text-char qodef--show">About us</span>
               </p>
             </div>
           </div>
@@ -27,7 +20,7 @@ export default function Intro() {
           <div className="row">
             <div className="col-sm-6">
               <p>
-                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibend auctor, nisi elit consequa, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris lorem
+                Lorem Ipsum. <strong><i>Proin</i></strong> gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibend auctor, nisi elit consequa, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris lorem
               </p>
             </div>
             <div className="col-sm-6">

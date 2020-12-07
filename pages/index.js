@@ -5,6 +5,7 @@ import Footer from "../components/footer/Footer";
 import Hero from "../components/home/hero/Hero";
 import Intro from "../components/home/intro/Intro";
 import Cards from "../components/home/cards/Cards";
+import Org from "../components/home/org/Org";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <Intro />
         <Cards />
+        <Org />
       </main>
       <Footer />
     </div>

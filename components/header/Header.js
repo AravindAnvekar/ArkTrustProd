@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Button, Form } from "react-bootstrap";
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -9,10 +10,15 @@ export default function Header() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto"></Nav>
         <Nav>
-          <Nav.Link href="#deets">Home</Nav.Link>
-          <Nav.Link href="#deets1">About</Nav.Link>
-          <Nav.Link href="#deets2">Organizarion</Nav.Link>
-          <Nav.Link href="#deets3">Work</Nav.Link>
+          <Link href="/">
+            <Nav.Link as="a" href="/">
+              Home
+          </Nav.Link>
+          </Link>
+          <Nav.Link href="/#about">About</Nav.Link>
+          <Nav.Link href="/#org">Organizarion</Nav.Link>
+          <Nav.Link href="/#work">Work</Nav.Link>
+          <Nav.Link href="#deets4">Contact</Nav.Link>
           <Button variant="outline-light" className="ml-2">
             Donations
           </Button>

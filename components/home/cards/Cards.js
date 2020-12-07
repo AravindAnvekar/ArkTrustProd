@@ -2,20 +2,21 @@ import React from 'react'
 
 export default function Cards() {
     return (
-        <div className="container mt-5 mb-5">
-            <div className="qodef-image-with-rotate-text-holder">
-                <div className="qodef-image-with-rotate-text-inner">
-                    <p className="qodef-image-with-rotate-text qodef-bg-text--animated qodef--appear">
-                        <span className="qodef-bg-text-char qodef--show">W</span>
-                        <span className="qodef-bg-text-char qodef--show">o</span>
-                        <span className="qodef-bg-text-char qodef--show">r</span>
-                        <span className="qodef-bg-text-char qodef--show">k</span>
-                    </p>
+        <div className="container mt-5 mb-5" id="work">
+            <div className="row">
+                <div className="col-sm-12">
+                    <div className="qodef-image-with-rotate-text-holder">
+                        <div className="qodef-image-with-rotate-text-inner">
+                            <p className="qodef-image-with-rotate-text qodef-bg-text--animated qodef--appear">
+                                <span className="qodef-bg-text-char qodef--show">Work</span>
+                            </p>
+                        </div>
+                    </div>
+                    <h2 className="t2">
+                        Lorem ipsum dolor sit amet consectetur.
+          </h2>
                 </div>
             </div>
-            <h2 className="t2">
-                Lorem ipsum dolor sit amet consectetur.
-          </h2>
             <div className="row">
                 <div className="col-sm-4">
                     <div className="card">

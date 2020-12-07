@@ -1,12 +1,12 @@
-@import "../../../styles//globals.scss";
+@import '../../../styles//globals.scss';
 
 #hero {
   height: calc(100vh - 56px);
   background-position: center;
   background-size: cover;
-  background-image: url("/hero-web.jpg");
+  background-image: url('/hero-web.jpg');
   .inner {
-    background-color: rgba(209, 61, 46, 0.8);
+    background-color: rgba(209, 61, 46, 0.4);
     height: calc(100vh - 56px);
     overflow-x: hidden;
   }
