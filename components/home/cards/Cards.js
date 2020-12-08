@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Cards() {
     return (
@@ -24,7 +25,9 @@ export default function Cards() {
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque dicta possimus cum aspernatur eligendi.</p>
-                            <a href="#" className="link">Go somewhere</a>
+                            <Link href="/work?id=1">
+                                <a className="link">Details</a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -34,7 +37,9 @@ export default function Cards() {
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque dicta possimus cum aspernatur eligendi.</p>
-                            <a href="#" className="link">Go somewhere</a>
+                            <Link href="/work?id=2">
+                                <a className="link">Details</a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -44,7 +49,9 @@ export default function Cards() {
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum cumque dicta possimus cum aspernatur eligendi.</p>
-                            <a href="#" className="link">Go somewhere</a>
+                            <Link href="/work?id=3">
+                                <a className="link">Details</a>
+                            </Link>
                         </div>
                     </div>
                 </div>

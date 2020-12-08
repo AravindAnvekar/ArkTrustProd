@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.scss"
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa"
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -37,22 +38,39 @@ export default function Footer() {
                     <div className="col-sm-4">
                         <ul className="list-unstyled footer-nav">
                             <li>
-                                <a href="/">Home</a>
+                                <Link href="/">
+                                    <a >Home</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/">About</a>
+                                <Link href="/#about">
+                                    <a>About</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/">Organiaztion</a>
+                                <Link href="/#org">
+                                    <a>Organiaztion</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/">Work</a>
+                                <Link href="/#work">
+                                    <a>Work</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/">Donations</a>
+                                <Link href="/contact">
+                                    <a>Contact</a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/">Blood Bank</a>
+                                <Link href="/">
+                                    <a>Donations</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/">
+                                    <a>Blood Bank</a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
